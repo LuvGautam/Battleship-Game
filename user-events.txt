@@ -1,0 +1,30 @@
+USEREVENTS
+
+enemy_medium.laser_event = pg.USEREVENT + 1
+enemy_medium.enemy_flash = pg.USEREVENT + 2
+
+enemy_large.laser_event = pg.USEREVENT + 2
+enemy_large.enemy_flash = pg.USEREVENT + 4
+enemy_large.rotate_enemy_event = pg.USEREVENT + 5
+
+
+SOUNDS/CHANNELS
+
+enemy_laser(small, medium, large)  - channel 0
+enemy damage(small, medium, large) - channel 1
+enemy_large plasma - channel 2
+
+player laser - channel 3
+player damage - channel 9
+player missile launch - channel 4
+player missile explosion - channel 4
+
+power up life gain - channel 5
+power up freeze - channel 6
+power up unfreeze - channel 7
+power up charge - channel 8
+
+
+
+
+
